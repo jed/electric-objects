@@ -1,6 +1,6 @@
 # electric-objects
 
-This library provides a node.js API for updating Electric Objects E01 picture frames, and works by scraping the current web UI. Currently it only exposes the [set_url](https://www.electricobjects.com/set_url) interface, which allows you to update the url of the web page displayed in the Chromium instance of all frames attached to your account.
+This library provides a node.js API for updating Electric Objects EO1 picture frames, and works by scraping the current web UI. Currently it only exposes the [set_url](https://www.electricobjects.com/set_url) interface, which allows you to update the url of the web page displayed in the Chromium instance of all frames attached to your account.
 
 ## Usage
 
