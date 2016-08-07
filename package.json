@@ -1,0 +1,19 @@
+{
+  "name": "electric-objects",
+  "version": "1.0.0",
+  "description": "A node.js API for the Electric Objects E01 frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jed/electric-objects.git"
+  },
+  "author": "Jed Schmidt <where@jed.is>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jed/electric-objects/issues"
+  },
+  "homepage": "https://github.com/jed/electric-objects#readme"
+}
