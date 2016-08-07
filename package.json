@@ -1,7 +1,7 @@
 {
   "name": "electric-objects",
   "version": "1.0.0",
-  "description": "A node.js API for the Electric Objects E01 frame",
+  "description": "A node.js API for the Electric Objects EO1 frame",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
