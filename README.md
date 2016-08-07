@@ -5,23 +5,29 @@ A node.js API for updating the Electric Objects E01 frame, which works by scrapi
 ## Usage
 
 ```javascript
-  let eo = require('electric-objects')
-  let client = eo('where@jed.is', '●●●●●●●●●')
-  let setUrl = client.setUrl('http://brooklynjs.com')
+let eo = require('electric-objects')
+let client = eo('where@jed.is', '●●●●●●●●●')
+let setUrl = client.setUrl('http://brooklynjs.com')
 
-  setUrl.then(() => console.log('Frame updated!'))
+setUrl.then(() => console.log('Frame updated!'))
 ```
 
 ## API
 
-### let eo = require('electric-objects')
+```javascript
+let eo = require('electric-objects')
+```
 
 This module exports a client constructor function.
 
-### let client = eo(email, password)
+```javascript
+let client = eo(email, password)
+```
 
 The constructor takes your email/password credentials and returns a client instance.
 
-### client.setUrl(url)
+```javascript
+client.setUrl(url)
+```
 
 The client instance provides only one method, which takes a URL and returns a promise that resolves when the URL is submitted.
